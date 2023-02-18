@@ -1,0 +1,28 @@
+{
+  "name": "docker-kubernetes-gcp",
+  "version": "1.0.0",
+  "description": "## demo project",
+  "type":"module",
+  "main": "app.js",
+  "scripts": {
+    "start": "babel-node ./app.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swestphal/node-docker-kubernetes-gcp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/swestphal/node-docker-kubernetes-gcp/issues"
+  },
+  "homepage": "https://github.com/swestphal/node-docker-kubernetes-gcp#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset": "^1.1.7",
+    "babel-preset-env": "^1.7.0",
+    "express": "^4.18.2",
+    "jest": "^29.4.3"
+  }
+}
