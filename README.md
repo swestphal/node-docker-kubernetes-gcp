@@ -10,10 +10,20 @@
 ### setup docker
 
 [x] create dockerignore
+
 [x] create dockerfile
+
 [x] build docker image  (docker build . -t ..myDockerHubName../node-docker-kubernetes-gcp)
+
 [x] run image (docker run --name nodeDemo -it -d -p 3000:3000 ....../..... see above)
 
 ### setup github actions for ci/cd and push image to docker hub
 
+[x] add github action in repository
+
+[x] create repository on dockerhub
+
+[x] generate access token on dockerhub (settigs-security) 
+
+[x] add action secrets (settings)
 
