@@ -1,10 +1,17 @@
 # node-docker-kubernetes-gcp
+In this demo, we create a nodeJS demo app that uses the Express framework. 
+We build the nodeJS app docker image and run it in a docker container to test it locally.
+
+A GitHub Action job is used for CI/CD that builds and push the docker images to Docker Hub for future use 
 
 ## demo project 
 
 [x] basic structure (controllers, models, routes)
+
 [x] define entry point (app.js)
+
 [x] install dependencies  (express, babel-cli, babel-preset, babel-preset-env, jest)
+
 [x] add basic page and routes
 
 ### setup docker
