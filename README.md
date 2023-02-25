@@ -27,3 +27,24 @@
 
 [x] add action secrets (settings)
 
+### add kubernetes
+
+[x] create deploy.yml
+
+### gcp
+
+[x] authenticate -> gcloud auth application-default login
+[x] initialize new project - gcloud init
+[x] enable services: ?????
+ gcloud services enable servicemanagement.googleapis.com servicecontrol.googleapis.com cloudresourcemanager.googleapis.com compute.googleapis.com container.googleapis.com containerregistry.googleapis.com cloudbuild.googleapis.com
+[x] create main.tf and providers.tf
+[x] initialize terraform -> terraform init  (had to brew install terraform)
+[x] create resources -> terraform apply -auto-approve
+[x] connect to the cluster -> gcloud container clusters get-credentials <clustername>
+[x] run kubernetes deployment
+    kubectl apply -f <yourDeploy.yml file>
+    kubectl get all         # view al the kubernetes resources
+    kubectl get nodes       # view nodes
+    kubectl get pods        # view pods
+    kubectl get services    # view services
+    kubectl get events      # view all event in the clust   
