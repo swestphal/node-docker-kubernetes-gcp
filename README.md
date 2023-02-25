@@ -22,7 +22,7 @@ A GitHub Action job is used for CI/CD that builds and push the docker images to 
 
 [x] build docker image  (docker build . -t ..myDockerHubName../node-docker-kubernetes-gcp)
 
-[x] run image (docker run --name nodeDemo -it -d -p 3000:3000 ....../..... see above)
+[x] run image (docker run --name nodedemo -it -d -p 3000:3000 ....../..... see above)
 
 ### setup github actions for ci/cd and push image to docker hub
 

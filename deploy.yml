@@ -24,7 +24,7 @@ spec:
       containers:
       - name: node-docker-kubernetes-gcp
         # pulling image from my DockerHub
-        image: simonewestphal/nodeDemo:latest
+        image: simonewestphal/node-docker-kubernetes-gcp:latest
         # using if not present works well with images that has tag
         # if you image is tag:lastest - use Always otherwise you
         # wouldn't get the fresh version of your image
